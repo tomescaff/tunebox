@@ -1,0 +1,92 @@
+models:
+    CMCC-CM:
+        pr:
+            ini: pr_day_CMCC-CM_historical_r1i1p1_19760101-19761231.nc
+            end: pr_day_CMCC-CM_historical_r1i1p1_20050101-20051231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_CMCC-CM_historical_r1i1p1_19760101-19761231.nc
+            end: zg_day_CMCC-CM_historical_r1i1p1_20050101-20051231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_CMCC-CM_historical_r1i1p1_19760101-19761231.nc
+            end: ta_day_CMCC-CM_historical_r1i1p1_20050101-20051231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    CNRM-CM5:
+        pr:
+            ini: pr_day_CNRM-CM5_historical_r1i1p1_19750101-19791231.nc
+            end: pr_day_CNRM-CM5_historical_r1i1p1_20050101-20051231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_CNRM-CM5_historical_r1i1p1_19750101-19791231.nc
+            end: zg_day_CNRM-CM5_historical_r1i1p1_20050101-20051231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_CNRM-CM5_historical_r1i1p1_19750101-19791231.nc
+            end: ta_day_CNRM-CM5_historical_r1i1p1_20000101-20041231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    MIROC5:
+        pr:
+            ini: pr_day_MIROC5_historical_r1i1p1_19700101-19791231.nc
+            end: pr_day_MIROC5_historical_r1i1p1_20000101-20091231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MIROC5_historical_r1i1p1_19700101-19791231.nc
+            end: zg_day_MIROC5_historical_r1i1p1_20000101-20091231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MIROC5_historical_r1i1p1_19700101-19791231.nc
+            end: ta_day_MIROC5_historical_r1i1p1_20000101-20091231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    MPI-ESM-LR:
+        pr:
+            ini: pr_day_MPI-ESM-LR_historical_r1i1p1_19700101-19791231.nc
+            end: pr_day_MPI-ESM-LR_historical_r1i1p1_20000101-20051231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc
+            end: zg_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MPI-ESM-LR_historical_r1i1p1_19760101-19761231.nc
+            end: ta_day_MPI-ESM-LR_historical_r1i1p1_20050101-20051231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+
+    MRI-CGCM3:
+        pr:
+            ini: pr_day_MRI-CGCM3_historical_r1i1p1_19700101-19791231.nc
+            end: pr_day_MRI-CGCM3_historical_r1i1p1_20000101-20051231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MRI-CGCM3_historical_r1i1p1_19760101-19761231.nc
+            end: zg_day_MRI-CGCM3_historical_r1i1p1_20050101-20051231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MRI-CGCM3_historical_r1i1p1_19760101-19761231.nc
+            end: ta_day_MRI-CGCM3_historical_r1i1p1_20050101-20051231.nc
+            name: ta
+            units: K
+            plev_units: Pa

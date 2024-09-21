@@ -1,0 +1,92 @@
+models:
+    CMCC-CM:
+        pr:
+            ini: pr_day_CMCC-CM_rcp85_r1i1p1_20710101-20711231.nc
+            end: pr_day_CMCC-CM_rcp85_r1i1p1_21000101-21001231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_CMCC-CM_rcp85_r1i1p1_20710101-20711231.nc
+            end: zg_day_CMCC-CM_rcp85_r1i1p1_21000101-21001231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_CMCC-CM_rcp85_r1i1p1_20710101-20711231.nc
+            end: ta_day_CMCC-CM_rcp85_r1i1p1_21000101-21001231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    CNRM-CM5:
+        pr:
+            ini: pr_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc
+            end: pr_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc
+            end: zg_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_CNRM-CM5_rcp85_r1i1p1_20710101-20751231.nc
+            end: ta_day_CNRM-CM5_rcp85_r1i1p1_20960101-21001231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    MIROC5:
+        pr:
+            ini: pr_day_MIROC5_rcp85_r1i1p1_20700101-20791231.nc
+            end: pr_day_MIROC5_rcp85_r1i1p1_21000101-21001231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MIROC5_rcp85_r1i1p1_20700101-20791231.nc
+            end: zg_day_MIROC5_rcp85_r1i1p1_20900101-20991231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MIROC5_rcp85_r1i1p1_20700101-20791231.nc
+            end: ta_day_MIROC5_rcp85_r1i1p1_20900101-20991231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+    MPI-ESM-LR:
+        pr:
+            ini: pr_day_MPI-ESM-LR_rcp85_r1i1p1_20700101-20791231.nc
+            end: pr_day_MPI-ESM-LR_rcp85_r1i1p1_20900101-21001231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MPI-ESM-LR_rcp85_r1i1p1_20710101-20711231.nc
+            end: zg_day_MPI-ESM-LR_rcp85_r1i1p1_20990101-20991231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MPI-ESM-LR_rcp85_r1i1p1_20710101-20711231.nc
+            end: ta_day_MPI-ESM-LR_rcp85_r1i1p1_20990101-20991231.nc
+            name: ta
+            units: K
+            plev_units: Pa
+
+    MRI-CGCM3:
+        pr:
+            ini: pr_day_MRI-CGCM3_rcp85_r1i1p1_20660101-20751231.nc
+            end: pr_day_MRI-CGCM3_rcp85_r1i1p1_20960101-21001231.nc
+            name: pr
+            units: kgm-2s-1
+        zg:
+            ini: zg_day_MRI-CGCM3_rcp85_r1i1p1_20710101-20711231.nc
+            end: zg_day_MRI-CGCM3_rcp85_r1i1p1_20990101-20991231.nc
+            name: zg
+            units: m
+            plev_units: Pa
+        ta:
+            ini: ta_day_MRI-CGCM3_rcp85_r1i1p1_20710101-20711231.nc
+            end: ta_day_MRI-CGCM3_rcp85_r1i1p1_20990101-20991231.nc
+            name: ta
+            units: K
+            plev_units: Pa

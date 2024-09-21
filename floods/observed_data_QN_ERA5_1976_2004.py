@@ -58,7 +58,7 @@ dt_dz = -6.5*1e-3 # ºC/m
 H0 = (273.15 - t500)/dt_dz + z500
 
 # save data
-out_fp = '/home/tcarrasco/results/data/floods/obs_QN_ERA5_1976_2004.nc'
+out_fp = '/home/tcarrasco/result/data/floods/obs_QN_ERA5_1976_2004.nc'
 dsout = xr.Dataset({'pr': pr, 'z500': z500, 't500': t500, 'H0': H0})
 dsout.to_netcdf(out_fp)    
     

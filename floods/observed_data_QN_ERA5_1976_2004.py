@@ -34,6 +34,7 @@ for i in range(dr_m.size):
     da_z500 = ds_z500['z'].sel(latitude=-33.5, longitude=-70.5, 
                                method='nearest')
     da_z500 = da_z500/9.8
+    da_z500 = da_z500[2::4]
     
     #read t500 data
     filename = f'ERA5_t500_6h_{year:04d}_{month:02d}_Global_025deg.nc'
@@ -41,6 +42,7 @@ for i in range(dr_m.size):
     ds_t500 = xr.open_dataset(fp_t500)
     da_t500 = ds_t500['t'].sel(latitude=-33.5, longitude=-70.5, 
                                method='nearest')
+    da_t500 = da_t500[2::4]
     
     for t in da_z500.time:
         z500.loc[t] = da_z500.sel(time=t)

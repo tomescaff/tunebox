@@ -1,3 +1,12 @@
+"""Script to create a netcdf file with observed data at Quinta Normal station.
+
+This script reads the observed precipitation data at the Quinta Normal station
+and creates a netcdf file with the observed data from 1976 to 2004. The script 
+also reads the ERA5 data at the closest grid point to the Quinta Normal station 
+and computes the height at which the temperature is 0 ºC. The script saves the 
+observed data and the computed data in a netcdf file.
+"""
+
 import pandas as pd
 import xarray as xr
 import numpy as np

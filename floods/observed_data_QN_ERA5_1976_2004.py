@@ -3,7 +3,7 @@ import xarray as xr
 import numpy as np
 
 # read observed data at Quinta Normal station
-filepath = '/home/tcarrasco/results/data/QN/QN_daily_precip.csv'
+filepath = '/home/tcarrasco/result/data/QN/QN_daily_precip.csv'
 df = pd.read_csv(filepath, parse_dates={'time': ['agno', ' mes', ' dia']}, )
 df = df.set_index('time')
 da = df[' valor'].to_xarray()

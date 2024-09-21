@@ -16,7 +16,7 @@ filepath = '/home/tcarrasco/result/data/QN/QN_daily_precip.csv'
 df = pd.read_csv(filepath, parse_dates={'time': ['agno', ' mes', ' dia']}, )
 df = df.set_index('time')
 da = df[' valor'].to_xarray()
-da = da.sel(time=slice('1979-01-01', '2004-12-31'))
+da = da.sel(time=slice('1976-01-01', '2004-12-31'))
 
 # fill absent data with nan
 dr = pd.date_range(start='1976-01-01', end='2004-12-31', freq='D')

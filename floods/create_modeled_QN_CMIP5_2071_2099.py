@@ -102,7 +102,7 @@ for model in models:
     ta = ta.sel(lat=lat, lon=lon, method='nearest').squeeze()
     ta = ta * 1 if data['models'][model]['zg']['units'] == 'm' else ta * 1 
     ta = ta.sel(time=~((ta.time.dt.month == 2) & (ta.time.dt.day == 29))) 
-    t700 = ta.sel(plev=50000).squeeze()
+    t700 = ta.sel(plev=70000).squeeze()
     t700 = xr.DataArray(t700.values, coords={'time': time}, dims=['time'])
     t700_list = t700_list + [t700.expand_dims(dim={'model': [model]}, axis=0)]
 
